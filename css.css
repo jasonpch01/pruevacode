@@ -1,0 +1,87 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+div {
+/*	border: solid;
+	border-width: 1px;
+	border-color: red;*/
+}
+
+#contenedor-cabecera{
+	width: 100%;
+	height: auto;
+	padding: 5px 120px 5px 120px;
+	background: #35a9e2;
+}
+#logo{
+	width: 200px;
+	display: inline-block;
+
+	font-weight: bold;
+	font-size: 40px;
+/*	text-align: center;*/
+}
+
+#buscador{
+	display: inline-block;
+/*	width: 10%;*/
+}
+
+#r-sociales{
+	display: inline-block;
+/*	width: 10%;*/
+}
+
+.caja{
+	width: 200px;
+	margin: 10px;
+	border: solid;
+	border-width: 2px;
+	border-color: #b0b4b7;
+	border-radius: 5px;
+}
+.title{
+	text-align: center;
+	text-transform: capitalize;
+	font-size: 20px;
+	font-family: sans-serif;
+	font-weight: 900;
+	border-bottom: solid;
+	border-bottom-width: 2px;
+	border-bottom-color: #b0b4b7;
+}
+
+.caja_body{
+	text-transform: capitalize;
+	text-align: center;
+	font-size: 15px;
+	font-family: sans-serif;
+
+	border-bottom: solid;
+	border-bottom-width: 2px;
+	border-bottom-color: #b0b4b7;
+
+}
+
+#content_inputfile label{
+	margin: 5px;
+
+	position: relative;
+
+	text-transform: capitalize;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.caja_foot{
+
+}
+
+#img,#texto{
+	margin: 5px;
+	color: red;
+}
+
